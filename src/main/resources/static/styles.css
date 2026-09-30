@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a252f;
+}
+
+.result {
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.flight-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.flight-card p {
+    line-height: 1.8;
+}

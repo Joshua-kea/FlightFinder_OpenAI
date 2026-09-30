@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlightFinder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Flight Search</h2>
+
+    <label>Departure:</label>
+    <input type="text" id="departure" placeholder="CPH / Copenhagen / Denmark">
+
+    <label>Arrival:</label>
+    <input type="text" id="arrival" placeholder="RBA / Rabat / Morocco">
+
+    <label>Date:</label>
+    <input type="date" id="date">
+
+    <label>Preference</label>
+    <select id="preference">
+        <option value="best balanced">Best Balanced</option>
+        <option value="fastest">Fastest</option>
+        <option value="cheapest">Cheapest</option>
+    </select>
+
+    <button id="searchBtn">Search</button>
+</div>
+
+<div class="container">
+    <h2>AI Response</h2>
+    <div class="result" id="resultBox"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
